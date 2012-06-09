@@ -30,7 +30,7 @@ Setting a hi variable in the window.jQuery namespace:
     
     jQuery.hi = "Hello!"
     "Hello!"
-    1 new Fields: hi 
+    1 new Field: hi 
 
 Accessing the log as an object
 ==============================
@@ -40,6 +40,6 @@ The last log is stored in window.namespaceLogger.lastLog:
 printLog
 ========
 
-After completing the log namespaceLogger calls window.namespaceLogger.printLog to print the results, if there were any changes.
+After completing the log, namespaceLogger calls window.namespaceLogger.printLog to print the results, if there are any changes.
 
 You can replace this function. It takes the log as found in window.namespaceLogger.lastLog as it's first argument.
