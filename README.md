@@ -14,7 +14,7 @@ To get updates call window.namespaceLogger.log:
 
     setInterval(window.namespaceLogger.log,100);
     
-If you include jQuery now you'll see this:
+If you include jQuery now, you'll see this:
 
     2 new Fields: $, jQuery 
     

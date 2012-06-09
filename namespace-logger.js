@@ -40,11 +40,11 @@
 				{
 					if (info.addedFields.length !== 0)
 					{
-						console.log(info.addedFields.length + " new Field" + pluralS(info.addedFields.length) + ": " + info.addedFields.join(", "));
+						console.log(info.addedFields.length + " new field" + pluralS(info.addedFields.length) + ": " + info.addedFields.join(", "));
 					}
 					if (info.removedFields.length !== 0)
 					{
-						console.log(info.removedFields.length + " removed Field" + pluralS(info.removedFields.length) + ": " + info.removedFields.join(", "));
+						console.log(info.removedFields.length + " removed field" + pluralS(info.removedFields.length) + ": " + info.removedFields.join(", "));
 					}
 				}
 			}
