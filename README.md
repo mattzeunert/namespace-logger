@@ -43,3 +43,8 @@ printLog
 After completing the log, namespaceLogger calls window.namespaceLogger.printLog to print the results, if there are any changes.
 
 You can replace this function. It takes the log as found in window.namespaceLogger.lastLog as it's first argument.
+
+License
+=======
+
+Licensed under [CC0](http://creativecommons.org/choose/zero/).
