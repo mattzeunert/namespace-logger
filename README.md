@@ -4,8 +4,9 @@ Using namespaceLogger
 Include the Javascript file or paste the code in the console to initialize the namespaceLogger:
 
     Found 538 fields in namespace [object Window]
-    Found 1 special field: namespaceLogger 
-    Full log in window.namespaceLogger.lastLog
+    Found 1 special field: namespaceLogger
+    Found 1 non-function special field: namespaceLogger
+    Full log in window.namespaceLogger.lastLog 
 
 A special field in the window namespace is one that is not found by default in Chrome.
 So for example "document", "console" or "Text" are left out.   
